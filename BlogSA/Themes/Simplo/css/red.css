@@ -1,0 +1,31 @@
+body {
+	background:url(../images/red/bk_body.jpg);
+}
+
+a {
+	color:#EA0000;
+}
+
+#topMenu ul li a {
+	background:url(../images/red/bullet_list.png) 0 5px no-repeat;
+}
+
+#topMenu ul li a:hover{
+	color:#EA0000;
+}
+
+.postItem h1 a:hover{
+	color:#EA0000;
+}
+
+.postItem .categs a {
+	background:#EA0000;
+}
+
+.icoAuthor {
+	background:url(../images/red/ico_author.png) 0 2px no-repeat;
+}
+
+.icoComments {
+	background:url(../images/red/ico_comments.png) 0 2px no-repeat;
+}

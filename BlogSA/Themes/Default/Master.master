@@ -1,0 +1,44 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="BSMasterPageBase" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="<%#Blogsa.ThemeUrl + "Style.css" %>" />
+    <asp:ContentPlaceHolder runat="server" ID="CPHHead"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="header">
+            <div id="logo">
+                <%=Blogsa.Settings["blog_name"] %></div>
+            <div class="description">
+                <%=Blogsa.Settings["blog_description"] %></div>
+        </div>
+        <div id="menulinks">
+            <%=Blogsa.MainMenu %>
+        </div>
+        <div id="mainarea">
+            <div id="contentarea">
+                <asp:ContentPlaceHolder ID="CPHContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="rightblock">
+                <Blogsa:BSWidgetHolder runat="server" ID="Default">
+                </Blogsa:BSWidgetHolder>
+            </div>
+        </div>
+        <div id="footer">
+            <div id="footerleft">
+                <a href="http://www.blogsa.net" target="_blank">Blogsa
+                    <%=Blogsa.Version %></a></div>
+            <div id="footerright">
+                &nbsp;<%=Language.Get["Theme"] %>
+                <a href="http://www.free-css-templates.com/">Free CSS Templates</a></div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

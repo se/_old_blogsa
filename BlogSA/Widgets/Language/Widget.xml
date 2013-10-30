@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget>
+  <name>Language</name>
+  <title>Language</title>
+  <description>Blogsa.net standart dil değiştirme eklentisidir.</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>Language</folder>
+</widget>

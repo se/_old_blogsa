@@ -1,0 +1,169 @@
+﻿.ctl-box
+{
+    display: block;
+}
+
+.ctl-box-item
+{
+    display: block;
+    padding: 5px 0;
+}
+
+.ctl-box-title
+{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 10pt;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    border: 1px solid #333;
+    padding: 5px 5px;
+    background: #525252;
+    color: #f4f4f4;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.ctl-box label
+{
+    background: #333;
+    color: #fff;
+    padding: 4px 8px;
+    display: inline-block;
+    -moz-border-top-left-radius: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-top-right-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    font-size: 10pt;
+    cursor: pointer;
+}
+
+.ctl-box-txt
+{
+    display: block;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-top-left-radius: 0px;
+    -webkit-border-top-left-radius: 0px;
+    font-family: Verdana;
+    border: 1px solid #868686;
+    padding: 5px;
+    outline-color: #333;
+}
+
+.wp100
+{
+    width: 98%;
+    max-width: 98%;
+}
+
+
+.logged-box
+{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding: 5px 10px;
+}
+
+#topmenu ul li a
+{
+    -moz-border-top-left-radius: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-top-right-radius: 4px;
+    -webkit-border-top-right-radius: 4px;
+    padding: 5px 5px;
+    font-size: 9pt;
+    text-shadow: 0 1px 0 #000;
+}
+
+#topmenu ul li a:hover, #topmenu .current a, #topmenu .current a:hover, #topmenu .current a:visited
+{
+    text-shadow: 0 1px 0 #fff;
+}
+
+.media-browser
+{
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+input[type="text"], input[type="password"]
+{
+    -moz-border-radius: 6px;
+    -moz-border-radius-topleft: 0px;
+    
+    -webkit-border-radius: 6px;
+    -webkit-border-top-left-radius: 0px;
+    
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea
+{
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+input[type="checkbox"]
+{
+    vertical-align: middle;
+    margin-right: 3px;
+}
+
+.menu-add-menu-items {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+}
+
+.menu-menu-items {
+    float: left;
+    margin-left: 10px;
+    border-left: 1px solid #ddd;
+}
+
+.menu-add-menu-items ul li
+{
+    display: block;
+    padding: 3px 5px;
+    background: #F4F4F4;
+    border: 1px solid #DDD;
+    margin-bottom: 2px;
+    cursor: default;
+    display: block;
+}
+
+.menu-add-menu-items ul li.selected
+{
+    background: #ddd;
+}
+
+.divProcess {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+
+.menu-menu-items {
+    padding-left: 10px;
+    display: block;
+}
+
+.menu-menu-items .txtinput {
+    width: 400px;
+}
+
+.menu-menu-items-title {
+    font-weight: bold;
+    border-bottom: 1px solid #e7e7e7;
+    display: block;
+    background: #f4f4f4;
+    padding: 3px 5px;
+}
+
+.menu-menu-items label {
+    width: 200px;
+    display: block;
+}

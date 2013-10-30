@@ -1,0 +1,243 @@
+﻿/*********************
+    POSTS AND PAGES
+*********************/
+.posts
+{
+}
+.posts .title
+{
+    background:#ffffff;
+}
+.posts .title h2
+{
+    padding: 5px;
+    display: block;
+    text-decoration:none;
+}
+.posts .content
+{
+}
+.posts .content span
+{
+}
+
+.posts .contentterms
+{
+    background:#ffffff;
+    padding:3px;
+    display:block;
+    margin:3px 0;
+}
+/**************************
+		PAGING
+**************************/
+
+.paging
+{
+    display: block;
+    border: 1px solid #e7e7e7;
+    padding: 6px;
+    width: 97%;
+}
+
+.paging a
+{
+    border: 1px solid #b6b6b6;
+    display: inline;
+    padding: 3px 6px;
+    margin-right: 5px;
+    background-color: #e7e7e7;
+    float: left;
+    margin-bottom: 4px;
+}
+
+.paging a:hover
+{
+    background-color: #666666;
+    text-decoration: none;
+    color: White;
+}
+
+.paging span
+{
+    float: left;
+    border-bottom: 5px solid #666666;
+    display: inline;
+    padding: 3px 6px 0px 6px;
+    margin-right: 5px;
+    background-color: #e7e7e7;
+    margin-bottom: 4px;
+}
+
+/*********************
+    COMMENTS
+*********************/
+.comments
+{
+}
+
+.comments .title
+{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.comments .comment
+{
+    padding: 5px;
+    color: #000000;
+}
+
+.comments .terms
+{
+    display: block;
+    padding: 5px;
+    border: 1px solid #e7e7e7;
+    margin: 5px 5px 5px 5px;
+    clear: both;
+}
+
+.comments .description
+{
+    background: #ffffff;
+    display: block;
+    width: 100%;
+    clear: both;
+    font-size: 12px;
+    color: #666666;
+    font-weight: normal;
+}
+
+.comments .description .avatar
+{
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+.comments .description .avatar img
+{
+    display: block;
+    border: 3px solid #f7f7f7;
+}
+
+/**************************
+	WRITE COMMENT FORM
+**************************/
+.table
+{
+    width: 100%;
+    display: block;
+}
+
+.table .tr
+{
+}
+
+.table .tdleft
+{
+    width: 20%;
+}
+
+.table .tdright
+{
+    width: 80%;
+}
+
+.table .inputtext
+{
+    width: 250px;
+}
+
+.table .inputtextarea
+{
+    width: 250px;
+    height: 100px;
+}
+
+/*********************
+        WIDGET
+*********************/
+.widget
+{
+}
+.widget .title
+{
+    font-size: medium;
+    font-weight: bold;
+    border-bottom: 1px solid #b6b6b6;
+    background: #f4f4f4;
+    padding-bottom: 5px;
+}
+.widget .title span
+{
+    padding: 3px 3px 3px 10px;
+    display: block;
+}
+.widget .content
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.widget .content ul
+{
+    margin: 0 0 0 25px;
+    padding: 0;
+    list-style-type: circle;
+}
+.widget .content span
+{
+}
+
+/**************************
+		CALENDAR
+**************************/
+
+.calendar
+{
+    margin: 0 auto;
+    width: 90%;
+}
+.calendar .header
+{
+    background-color: #f4f4f4;
+    border: 1px solid #b6b6b6;
+    font-weight: bold;
+}
+.calendar .day
+{
+    border: 1px solid #b6b6b6;
+}
+.calendar .nextprev
+{
+    border: 1px solid #b6b6b6;
+    text-align: center;
+    background-color: #e7e7e7;
+}
+.calendar .nextprev a
+{
+    width: 100%;
+    display: block;
+    font-family: century;
+    text-decoration: none;
+}
+.calendar .nextprev a:hover
+{
+    background-color: #f4f4f4;
+}
+.calendar .today
+{
+    background-color: #505050;
+    color: white;
+    border: 1px solid #b6b6b6;
+}
+.calendar .weekend
+{
+    color: #061C34;
+    border: 1px solid #b6b6b6;
+    background-color: #f4f4f4;
+}
+.calendar .dayheader
+{
+    border: 1px solid #b6b6b6;
+    background-color: #e8e8e8;
+}

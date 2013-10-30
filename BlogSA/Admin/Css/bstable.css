@@ -1,0 +1,145 @@
+﻿.bstable-holder {
+    margin: 10px;
+    display: block;
+}
+
+.bstable-view {
+    font-size: 95%;
+    margin: 0;
+}
+
+.bstable-view-buttons {
+    border-bottom: 2px solid #666;
+    color: #666;
+    font-size: 100%;
+    padding: 7px 5px;
+}
+
+    .bstable-view-buttons li.selected {
+        background: transparent url(indicator-small.png) no-repeat 50% 101%;
+        cursor: default;
+        font-weight: bold;
+    }
+
+        .bstable-view-buttons li.selected a {
+            color: #333;
+            cursor: default;
+            font-weight: bold;
+        }
+
+    .bstable-view-buttons li a {
+        font-weight: normal;
+        color: #5793BD;
+    }
+
+    .bstable-view-buttons li {
+        color: #5793BD;
+        cursor: pointer;
+        display: inline;
+        list-style: none;
+        padding: 7px 5px;
+    }
+
+.bstable {
+    font-size: 95%;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+}
+
+    .bstable th {
+        border-bottom: 1px solid #BBB;
+        border-top: 1px solid #BBB;
+        font-weight: bold;
+        padding: 5px 5px;
+        text-align: left;
+        background: #f4f4f4;
+    }
+
+    .bstable .tcc {
+        text-align: center;
+    }
+
+.bstable-select-header, .bstable-select-column {
+    width: 3% !important;
+    text-align: center !important;
+}
+
+.bstable tr.alternate {
+    background-color: #F8F8F8;
+}
+
+.bstable tr {
+    background-color: white;
+}
+
+.bstable td {
+    border: 1px solid #DDD;
+    padding: 0.6em;
+    text-align: left;
+    vertical-align: top;
+    width: 10%;
+    border-image: initial;
+}
+
+.bstable-button-groups li.nk {
+    min-width: 5px;
+}
+
+.bstable-button-groups li:hover {
+    border: 1px solid #999;
+    margin: -1px 0 -1px -1px;
+    padding: 1px 8px 1px 9px;
+}
+
+.bstable-button-groups li:active {
+    background-color: #c8c8c8;
+    background-image: -moz-linear-gradient(top,#d8d8d8,#bdbdbd);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#d8d8d8),to(#bdbdbd));
+    border: 1px solid #999;
+    text-shadow: 0 1px 0px #eee;
+}
+
+.bstable-button-groups li:first-of-type {
+    border-left: 0;
+    -moz-box-shadow: inset 1px 0 #fff;
+    -webkit-box-shadow: inset 1px 0 #fff;
+    box-shadow: inset 1px 0 #fff;
+    -moz-border-radius: 3px 0 0 3px;
+    -webkit-border-radius: 3px 0 0 3px;
+    border-radius: 3px 0 0 3px;
+}
+
+.bstable-button-groups li:last-of-type {
+    border-right: 0;
+    -moz-border-radius: 0 3px 3px 0;
+    -webkit-border-radius: 0 3px 3px 0;
+    border-radius: 0 3px 3px 0;
+}
+
+.bstable-button-groups li:hover:first-of-type {
+    border-color: #999;
+    border-left: 1px solid transparent;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-left: 8px;
+}
+
+.bstable-button-groups li:hover:last-of-type {
+    border-color: #999;
+    border-right: 1px solid #999;
+    margin: -1px;
+    padding: 1px 8px 1px 9px;
+}
+
+.bstable-button-groups.Ub li {
+    min-width: 15px;
+    padding: 0 4px;
+}
+
+    .bstable-button-groups.Ub li:hover {
+        margin: -1px 0 -1px -1px;
+        min-width: 15px;
+        padding: 1px 4px 1px 5px;
+    }

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <lang>English</lang>
+  <word Keyword="trustedconnection">Secure connection</word>
+  <word Keyword="start">Lets Begin!</word>
+  <word Keyword="siteslogan">Your slogan</word>
+  <word Keyword="{menus-default}">Default</word>
+  <word Keyword="{tag-title}">My Tag</word>
+  <word Keyword="password">Password</word>
+  <word Keyword="tolocal">to Local (I want to setup to my computer)</word>
+  <word Keyword="{menus-default-code}">Default</word>
+  <word Keyword="serveraddress">Server Address</word>
+  <word Keyword="installtype">Setup type</word>
+  <word Keyword="permissionerror">Please check file permissions!</word>
+  <word Keyword="{widget-recentpost}">Recent Posts</word>
+  <word Keyword="docompleate">Complete setup</word>
+  <word Keyword="againcheck">Check again</word>
+  <word Keyword="step3">3. Step</word>
+  <word Keyword="{page-title}">About</word>
+  <word Keyword="guidedescription"><![CDATA[
+      <h3>
+	  The guide will help you to setup Blogsa successfully
+	</h3>
+      <span style="color:#ffff00">Firstly;</span>
+      <ul>
+        <li>
+		At the next step  file permissions are necessary for Blogsa setup will be checked.
+		</li>
+        <li>
+		If your database choice is <span style="color:#ffff00">Mssql</span>, it is only necessary 
+		to permission for <span style="color:#ffff00">web.config</span> file
+		
+        <li>But if you setup with  <span style="color:#ffff00">Access</span> It is necessary to give permission for  <span style="color:#ffff00">web.config</span> and <span style="color:#ffff00">App_Data</span> folder for writing.</li>
+        <li>
+		This function is necessary to setup Blogsa healthy.</li>
+      </ul>
+    ]]></word>
+  <word Keyword="yeswrite"><![CDATA[
+      <span class="yes">Write permission is ok!</span>
+    ]]></word>
+  <word Keyword="websitesettings">Website settings</word>
+  <word Keyword="goadminpanel">Go to Admin panel</word>
+  <word Keyword="{post-title}">First Post</word>
+  <word Keyword="setuplanguage">Setup Language : </word>
+  <word Keyword="error">Error</word>
+  <word Keyword="{tag-code}">My-Tag</word>
+  <word Keyword="selectsetuptype">Please select setup type</word>
+  <word Keyword="wellcome">Welcome to Blogsa Setup Guide!</word>
+  <word Keyword="{setting-blogname}">My Blog</word>
+  <word Keyword="checkfilepermission">
+  To complete setup successfully it is necessary to give write permission folders and files below :</word>
+  <word Keyword="username">Username</word>
+  <word Keyword="{category-code}">Personal</word>
+  <word Keyword="beforesetup">First step before setup</word>
+  <word Keyword="compleate"><![CDATA[
+        <span style="font-size:large">You setup Blogsa successfully !</span>
+        <br><br>
+		To reach Admin Panel It is enough to write "/Admin"  after your web site url.
+     	The login Information for Admin Panel:
+        
+        <br/><br/>
+        <span style="color:#FFFF00; font-weight:bold;font-size:14pt;">
+        Username : <span style="color:#fff">admin</span><br/>
+        Password : <span style="color:#fff">{Password}</span></span><br/><br/>
+        <h5 style="color:#ffff00;">
+		For running successfully dont forget to make Settings on your admin panel.!</h5>
+        For your security dont forget to delete Setup folder on your main folder.<br/><br />
+    ]]></word>
+  <word Keyword="access">Access Database</word>
+  <word Keyword="whatdoyouwantnow">What do you want to do now ?</word>
+  <word Keyword="serverparameters">Please enter MS SQL Server Connection parameters</word>
+  <word Keyword="{page-code}">About</word>
+  <word Keyword="errorreason1"><![CDATA[
+      <ul>
+        <li>
+		Server address, username, password or database name may be wrong
+		</li>
+        <li>
+		Your server may not support Secure Connection
+		</li>
+      </ul>
+    ]]></word>
+  <word Keyword="nowrite"><![CDATA[
+      <span class="no">Write permission is not available!</span>
+    ]]></word>
+  <word Keyword="goback">Go back</word>
+  <word Keyword="{widget-recentcomment}">Recent Comments</word>
+  <word Keyword="pleaseselectinstalltype">
+  Please select database type for setup.</word>
+  <word Keyword="{widget-links}">Links</word>
+  <word Keyword="{page-content}">About page</word>
+  <word Keyword="setuppage">Blogsa - Setup Page</word>
+  <word Keyword="suggestions"><![CDATA[
+        <ul>
+        <li>
+		For the best performance Blogsa suggests Microsoft SQL Server 2005 database type.
+       <br />
+        </li>
+        <li>
+		For Microsoft SQL 2005 database; 
+		if you setup for your web site service provider must support  Microsoft SQL 2005.
+        if you setup for your computer, there must be Microsoft SQL 2005 Express Edition version at least. If It is not available you can download from
+	  <a href="http://www.microsoft.com/downloads/details.aspx?familyid=220549b5-0b07-4448-8848-dcc397514b41&displaylang=en">
+            <span>http://www.microsoft.com/downloads/details.aspx?familyid=220549b5-0b07-4448-8848-dcc397514b41&amp;displaylang=en</span></a>
+        </li>
+        <li>
+		If any errors occur while setup or processing please send this error to us with Screenshot if available
+        <a href="http://www.blogsa.net/ReportBug.aspx">Blogsa Error Notification</a>
+        page.
+        </li>
+        <li>
+		Any support you provided on Blogsa's development period, will return to you more quality service
+        </li>
+        </ul>
+    ]]></word>
+  <word Keyword="databasename">Database Name</word>
+  <word Keyword="{category-title}">Personal</word>
+  <word Keyword="enterinformation">Enterance Information</word>
+  <word Keyword="step1">1. Step</word>
+  <word Keyword="gowebsite">Go to website</word>
+  <word Keyword="step2">2. Step</word>
+  <word Keyword="{post-content}">This is my first post.</word>
+  <word Keyword="congratulations">Congratulations</word>
+  <word Keyword="siteaddress">Your site</word>
+  <word Keyword="setupped"><![CDATA[
+        <span class="title compleatetitle">Thank you for choosing Blogsa!</span>
+        <span style="font-size:large;">Blogsa is already installed on your site.</span>
+        <br><br>
+        If you want to install Blogsa again, Delete 
+        <span style="font-weight:bold;color:yellow;">&lt;add key="Setup" value="Ok" /&gt;</span> line on Web.config file and restart Setup page.
+    ]]></word>
+  <word Keyword="continue">Continue</word>
+  <word Keyword="{post-code}">First-Post</word>
+  <word Keyword="file">File</word>
+  <word Keyword="toweb">to Web (I want to setup to my website) </word>
+  <word Keyword="sitetitle">Your title</word>
+  <word Keyword="{widget-feeder}">Feeder</word>
+  <word Keyword="{widget-pages}">Pages</word>
+  <word Keyword="folder">Folder</word>
+  <word Keyword="install">Install</word>
+  <word Keyword="laststepinfo">
+  You are at the last step for Blogsa Setup. You can complete setup by providing site address, your title and your slogan. </word>
+  <word Keyword="accessdatabasesetup">Access Database setup</word>
+  <word Keyword="{setting-blogdescription}">Wellcome My Blog</word>
+  <word Keyword="setupguide">Blogsa Setup Guide</word>
+  <word Keyword="{widget-categories}">Categories</word>
+  <word Keyword="{menus-home}">Home</word>
+  <word Keyword="beforesettings">
+  if you didnt make custom settings it is not necssary to change the values.</word>
+  <word Keyword="laststep">Last step</word>
+  <word Keyword="mssql2005">Mssql 2005/2008 Database</word>
+  <word Keyword="errorreason2"><![CDATA[
+      <ul>
+        <li>
+		There may be a database named file is in App_Data folder.</li>
+        <li>
+		It may be protected for writing
+		 </li>
+      </ul>
+    ]]></word>
+  <word Keyword="cancel">Cancel</word>
+</language>

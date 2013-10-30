@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+  <name>Basic Template</name>
+  <description>Basic Template Description</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>BasicTemplate</folder>
+  <places>Default</places>
+</theme>

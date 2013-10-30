@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <lang>Türkçe</lang>
+  <word Keyword="trustedconnection">Güvenli Bağlantı</word>
+  <word Keyword="start">Haydi Başlayalım!</word>
+  <word Keyword="siteslogan">Sitenizin Sloganı</word>
+  <word Keyword="{menus-default}">Ana Menü</word>
+  <word Keyword="{tag-title}">Etiketim</word>
+  <word Keyword="password">Parola</word>
+  <word Keyword="tolocal">Local (Bilgisayarıma kurmak istiyorum)</word>
+  <word Keyword="{menus-default-code}">Ana-Menu</word>
+  <word Keyword="serveraddress">Sunucu Adresi</word>
+  <word Keyword="installtype">Kurulum Tipi</word>
+  <word Keyword="permissionerror">Lütfen dosya izinlerinizi kontrol edin !</word>
+  <word Keyword="{widget-recentpost}">Son Yazılar</word>
+  <word Keyword="docompleate">Kurulumu Tamamla</word>
+  <word Keyword="againcheck">Tekrar Kontrol Et</word>
+  <word Keyword="step3">3. Adım</word>
+  <word Keyword="{page-title}">Hakkımda</word>
+  <word Keyword="guidedescription"><![CDATA[
+      <h3>Bu rehber size Blogsa'yı başarılı bir şekilde kurabilmeniz için eşlik edecek.</h3>
+      <span style="color:#ffff00">Öncelikle;</span>
+      <ul>
+        <li>Bir sonraki adımda Blogsa kurulum işlemi için gerekli olan dosya izinleri kontrol edilecek.</li>
+        <li>Eğer Veritabanı seçimini <span style="color:#ffff00">Mssql</span> olarak yapacaksanız yanlızca <span style="color:#ffff00">web.config</span> dosyası izin için yeterlidir.</li>
+        <li>Fakat <span style="color:#ffff00">Access</span> kurulumu yapacaksanız <span style="color:#ffff00">web.config</span> ve <span style="color:#ffff00">App_Data</span> klasörlerinin yazmaya karşı izin verilmiş olması gerekmektedir.</li>
+        <li>Bu işlem Blogsa'yı sağlıklı bir şekilde kurabilmeniz için gereklidir.</li>
+      </ul>
+    ]]></word>
+  <word Keyword="yeswrite"><![CDATA[
+      <span class="yes">Yazma izni var!</span>
+    ]]></word>
+  <word Keyword="websitesettings">Web Sitenizin Ayarları</word>
+  <word Keyword="goadminpanel">Yönetim Panelime Gitmek İstiyorum</word>
+  <word Keyword="{post-title}">Bu benim ilk yazım</word>
+  <word Keyword="setuplanguage">Kurulum Dili : </word>
+  <word Keyword="error">Hata</word>
+  <word Keyword="{tag-code}">Etiketim</word>
+  <word Keyword="selectsetuptype">Lütfen Kurulum Tipinizi Seçin</word>
+  <word Keyword="wellcome">Blogsa Kurulum Rehberine Hoşgeldiniz!</word>
+  <word Keyword="{setting-blogname}">Benim Blogum</word>
+  <word Keyword="checkfilepermission">Kurulumun sağlıklı tamamlanabilmesi için aşağıdaki klasör ve dosyalara yazma izni verilmesi gerekmektedir.</word>
+  <word Keyword="username">Kullanıcı Adı</word>
+  <word Keyword="{category-code}">Kisisel</word>
+  <word Keyword="beforesetup">Kurulum Öncesi İlk Adım</word>
+  <word Keyword="compleate"><![CDATA[
+        <span style="font-size:large">Blogsa'yı Başarı ile Kurdunuz !</span>
+        <br><br>
+        Sitenizin Yönetim Paneli için site adresinizin sonuna "/Admin" yazmanız yeterlidir.
+        Yönetim paneli giriş bilgileriniz;
+        <br/><br/>
+        <span style="color:#FFFF00; font-weight:bold;font-size:14pt;">
+        Kullanıcı : <span style="color:#fff">admin</span><br/>
+        Şifre : <span style="color:#fff">{Password}</span></span><br/><br/>
+        <h5 style="color:#ffff00;">Sitenizin sağlıklı çalışabilmesi için yönetim panelinizden Ayarlarınızı girmeyi unutmayın!</h5>
+        Güvenliğiniz için sitenizin ana dizininde bulunan Setup klasörünü silmeyi unutmayın.<br/><br />
+    ]]></word>
+  <word Keyword="access">Access Veritabanı</word>
+  <word Keyword="whatdoyouwantnow">Şimdi Ne Yapmak İstiyorsunuz ?</word>
+  <word Keyword="serverparameters">MS SQL Sunucu Bağlantı Parametrelerini Girin</word>
+  <word Keyword="{page-code}">Hakkimda</word>
+  <word Keyword="errorreason1"><![CDATA[
+      <ul>
+        <li>Sunucu adresiniz, Kullanıcı Adı, Parolanız veya Veritabanı adınızı yanlış yazmış olabilirsiniz.</li>
+        <li>Sunucunuz Güvenli Bağlantıyı desteklemiyor olabilir. </li>
+      </ul>
+    ]]></word>
+  <word Keyword="nowrite"><![CDATA[
+      <span class="no">Yazma izni yok!</span>
+    ]]></word>
+  <word Keyword="goback">Geri Dön</word>
+  <word Keyword="{widget-recentcomment}">Son Yorumlar</word>
+  <word Keyword="pleaseselectinstalltype">Lütfen kurulum için kullanacağınız veritabanı tipini seçin.</word>
+  <word Keyword="{widget-links}">Bağlantılar</word>
+  <word Keyword="{page-content}">Hakkımda sayfam.</word>
+  <word Keyword="setuppage">Blogsa - Kurulum Sayfası</word>
+  <word Keyword="suggestions"><![CDATA[
+        <ul>
+        <li>
+        En iyi performans için Blogsa Microsoft SQL Server 2005 veritabanı biçimini önerir.<br />
+        </li>
+        <li>
+        Microsoft SQL 2005 veritabanı için; İnternet sitenize kuracaksanız sağlayıcınızın
+        Microsoft SQL 2005'e destek vermesi gerekir. Eğer bilgisayarınıza kuracaksanız bilgisayarınızda
+        en az Microsoft SQL 2005 Express Edition sürümü bulunması gerekir. Eğer bilgisayarınızda
+        yoksa <a href="http://www.microsoft.com/downloads/details.aspx?familyid=220549b5-0b07-4448-8848-dcc397514b41&displaylang=en">
+            <span>http://www.microsoft.com/downloads/details.aspx?familyid=220549b5-0b07-4448-8848-dcc397514b41&amp;displaylang=en</span></a>
+        adresinden indirebilirsiniz.
+        </li>
+        <li>
+        Eğer Blogsa'da kurulum veya işleyiş esnasında bir hataya rastladı iseniz lütfen
+        bu hatayı mümkünse Ekran Görüntüsü ile beraber <a href="http://www.blogsa.net/ReportBug.aspx">Blogsa Hata Bildirimi</a>
+        sayfasından bizlere iletin.
+        </li>
+        <li>
+        Blogsa'nın gelişim sürecine yaptığınız her destek sizlere daha kaliteli bir hizmet
+        olarak geri dönecektir.
+        </li>
+        </ul>
+    ]]></word>
+  <word Keyword="databasename">Veritabanı Adı</word>
+  <word Keyword="{category-title}">Kişisel</word>
+  <word Keyword="enterinformation">Giriş Bilgileri</word>
+  <word Keyword="step1">1. Adım</word>
+  <word Keyword="gowebsite">Web Siteme Gitmek İstiyorum</word>
+  <word Keyword="step2">2. Adım</word>
+  <word Keyword="{post-content}">Web Siteme Hoşgeldiniz!</word>
+  <word Keyword="congratulations">Tebrikler</word>
+  <word Keyword="siteaddress">Site Adresiniz</word>
+  <word Keyword="setupped"><![CDATA[
+        <span class="title compleatetitle">Blogsa'yı tercih ettiğiniz için Teşekkürler!</span>
+        <span style="font-size:large;">Sitenizde zaten Blogsa yüklü görünüyor.</span>
+        <br><br>
+        Blogsa'yı tekrar yüklemek istiyorsanız
+        Web.config dosyanızdaki <span style="font-weight:bold;color:yellow;">&lt;add key="Setup" value="Ok" /&gt;</span> satırını kaldırıp Setup sayfanızı tekrar çalıştırmalısınız.
+    ]]></word>
+  <word Keyword="continue">Devam Et</word>
+  <word Keyword="{post-code}">Bu-benim-ilk-yazim</word>
+  <word Keyword="file">Dosya</word>
+  <word Keyword="toweb">Web (İnternet siteme kurmak istiyorum) </word>
+  <word Keyword="sitetitle">Site Başlığınız</word>
+  <word Keyword="{widget-feeder}">Takip Et</word>
+  <word Keyword="{widget-pages}">Sayfalar</word>
+  <word Keyword="folder">Klasör</word>
+  <word Keyword="install">Kur</word>
+  <word Keyword="laststepinfo">Blogsa Kurulum işleminin son adımındasınız. Artık Site adresinizi, başlığınızı ve sloganınızı girerek kurulumu sonlandırabilirsiniz. </word>
+  <word Keyword="accessdatabasesetup">Access Veritabanı Kurulumu</word>
+  <word Keyword="{setting-blogdescription}">Bloguma Hoşgeldiniz!</word>
+  <word Keyword="setupguide">Blogsa Kurulum Rehberi</word>
+  <word Keyword="{widget-categories}">Kategoriler</word>
+  <word Keyword="{menus-home}">Anasayfa</word>
+  <word Keyword="beforesettings">Eğer daha önce özel bir ayar yapmadıysanız değerleri değiştirmenize gerek yoktur.</word>
+  <word Keyword="laststep">Son Adım</word>
+  <word Keyword="mssql2005">Mssql 2005/2008 Veritabanı</word>
+  <word Keyword="errorreason2"><![CDATA[
+      <ul>
+        <li>Bu Veritabanı adında bir dosya App_Data klasörünüzde olabilir.</li>
+        <li>App_Data klasörünüz yazmaya karşı korumalı olabilir. </li>
+      </ul>
+    ]]></word>
+  <word Keyword="cancel">İptal Et</word>
+</language>

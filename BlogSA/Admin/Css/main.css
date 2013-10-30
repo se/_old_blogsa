@@ -1,0 +1,123 @@
+﻿.drgmain
+{
+	display:block;
+	width:470px;
+	border:1px solid #f4f4f4;
+	background:#fff;
+	margin-bottom:10px;
+}
+
+.drgmain .drgbox
+{
+	margin:5px;
+	display:block;
+}
+
+.drgmain .drgbox .drgtitle
+{
+	display:block;
+	margin-bottom:5px;
+	background:#f4f4f4;
+	height:30px;
+	border-bottom:1px solid #e7e7e7;
+	line-height:28px;
+}
+
+.drgmain .drgbox .drgtitle .spantitle
+{
+	display:inline-block;
+	padding-left:10px;
+	cursor:default;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:Trebuchet MS;
+}
+
+.drgmain .drgbox .drgcontent
+{
+	display:block;
+	padding:3px;
+	background:#f4f4f4;
+}
+
+ul.uldrg
+{
+	margin:0;
+	padding:0;
+	width:460px;
+	float:left;
+	margin-right:20px;
+	min-height:100px;
+}
+
+ul.uldrg li
+{
+	margin:0;
+	padding:0;
+	list-style:none;
+	float:left;
+	margin-top:10px;
+	margin-right:10px;
+}
+
+div.dragging
+{
+	border:2px dashed #e7e7e7;
+	background:#f4f4f4;
+	display:block;
+	height:100px;
+	margin:10px 0;
+	width:465px;
+}
+
+.frm
+{
+	display:block;
+}
+
+.frm .frmbox
+{
+	margin:5px;
+}
+
+.frm .frmrow
+{
+	margin-top:5px;
+	display:block;
+}
+
+.frm .frmtitle
+{
+	display:block;
+	font-size:10pt;
+	font-weight:bold;
+	font-family:"Trebuchet MS";
+	border-bottom:2px solid #fff;
+	margin-top:5px;
+}
+
+.frm .frmsubtitle
+{
+	font-size:10px;
+}
+
+.frm .fmrtxtbox
+{
+	display:block;
+	border:1px solid #e7e7e7;
+	width:435px;
+    padding: 3px 5px;
+	overflow:auto;
+}
+
+.frm .frmactions
+{
+	margin-top:10px;
+	display:block;
+	text-align:right;
+}
+
+#tinymce{
+	font-size:10pt;
+	font-family:Verdana !important;
+}

@@ -1,0 +1,104 @@
+.progress-container-all
+{
+    display: block;
+}
+
+.progress-container
+{
+    display: block;
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    background: #f4f4f4;
+    margin-top: 5px;
+}
+
+.progress-wrapper
+{
+    display: block;
+}
+
+a.progress-cancel
+{
+    font-size: 0;
+    display: block;
+    float: right;
+}
+
+.progress-title
+{
+    font-size: 8pt;
+    font-weight: bold;
+}
+
+.progress-status
+{
+    font-size: 8pt;
+    font-style: italic;
+}
+
+#files
+{
+    display: block;
+    margin-top: 10px;
+}
+
+#files ul
+{
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#files ul li
+{
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    float: left;
+}
+
+#files ul li:hover
+{
+    background: #f4f4f4;
+}
+
+.link-holder img
+{
+    vertical-align: middle;
+    border: 4px solid #bbb;
+    width: 120px;
+    margin: 0 auto;
+    display: block;
+}
+
+.file-link-holder
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.file-name
+{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.file-image-holder {
+    height: 90px;
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+
+.file-image
+{
+    max-height: 90px;
+    display: block;
+    margin: 0 auto;
+}

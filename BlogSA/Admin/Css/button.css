@@ -1,0 +1,155 @@
+﻿.clear
+{
+    overflow: hidden;
+    width: 100%;
+}
+
+a.bsbutton
+{
+    background: transparent url('../Images/Buttons/btngrayright.gif') no-repeat scroll top right;
+    color: #444;
+    display: inline-block;
+    font: normal 12px Arial;
+    height: 24px;
+    padding-right: 18px;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+a.small
+{
+    font-size: 8px;
+}
+
+a.bsbutton span
+{
+    background: transparent url('../Images/Buttons/btngrayleft.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a.block
+{
+    display: block !important;
+    text-align: center;
+}
+
+a.green
+{
+    color: #fff;
+    background: transparent url('../Images/Buttons/btngreenright.gif') no-repeat scroll top right;
+}
+a.green span
+{
+    background: transparent url('../Images/Buttons/btngreenleft.gif') no-repeat;
+}
+
+a.red
+{
+    color: #fff;
+    background: transparent url('../Images/Buttons/btnredright.gif') no-repeat scroll top right;
+}
+a.red span
+{
+    background: transparent url('../Images/Buttons/btnredleft.gif') no-repeat;
+}
+
+a.blue
+{
+    color: #fff;
+    background: transparent url('../Images/Buttons/btnblueright.gif') no-repeat scroll top right;
+}
+a.blue span
+{
+    background: transparent url('../Images/Buttons/btnblueleft.gif') no-repeat;
+}
+
+a.dark
+{
+    color: #fff;
+    background: transparent url('../Images/Buttons/btndarkright.gif') no-repeat scroll top right;
+}
+a.dark span
+{
+    background: transparent url('../Images/Buttons/btndarkleft.gif') no-repeat;
+}
+
+a.bsbutton:active
+{
+    background-position: bottom right;
+    outline: none;
+}
+
+a.bsbutton:active span
+{
+    background-position: bottom left;
+}
+
+/*SMALL BUTTONS*/
+
+a.sbtn, a.sbtn:visited
+{
+    background: transparent url('../Images/Buttons/approveright.gif') no-repeat scroll top right;
+    color: #fff;
+    display: inline-block;
+    font: normal 10px Arial;
+    height: 16px;
+    padding-right: 15px;
+    text-decoration: none;
+    overflow: hidden;
+}
+a.sbtn span
+{
+    background: transparent url('../Images/Buttons/approve.gif') no-repeat;
+    display: block;
+    line-height: 6px;
+    padding: 5px 0 5px 6px;
+    text-align: center;
+    font-weight: bold;
+}
+a.bsred
+{
+    background: transparent url('../Images/Buttons/deleteright.gif') no-repeat scroll top right;
+}
+a.bsred span
+{
+    background: transparent url('../Images/Buttons/delete.gif') no-repeat;
+}
+a.bsblue
+{
+    background: transparent url('../Images/Buttons/passiveright.gif') no-repeat scroll top right;
+}
+a.bsblue span
+{
+    background: transparent url('../Images/Buttons/passive.gif') no-repeat;
+}
+a.bsdarkblue
+{
+    background: transparent url('../Images/Buttons/darkblueright.gif') no-repeat scroll top right;
+}
+a.bsdarkblue span
+{
+    background: transparent url('../Images/Buttons/darkblue.gif') no-repeat;
+}
+a.bsgray
+{
+    background: transparent url('../Images/Buttons/readright.gif') no-repeat scroll top right;
+}
+a.bsgray span
+{
+    background: transparent url('../Images/Buttons/read.gif') no-repeat;
+}
+
+a.sbtn:hover
+{
+    background-position: bottom right;
+    outline: none;
+}
+
+a.sbtn:hover span
+{
+    background-position: bottom left;
+}

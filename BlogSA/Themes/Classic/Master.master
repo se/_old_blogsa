@@ -1,0 +1,56 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="BSMasterPageBase" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="<%#Blogsa.ThemeUrl+"screen.css" %>" />
+    <link rel="shortcut icon" href="<%#Blogsa.ThemeUrl+"images/favicon.ico" %>" />
+    <asp:ContentPlaceHolder runat="server" ID="CPHHead"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="header">
+            <div id="top">
+                <div id="title">
+                    <%=Blogsa.Title %></div>
+                <div id="slogan">
+                    <%=Blogsa.Description%></div>
+            </div>
+            <div id="menu">
+                <span class="left"></span>
+                <%=Blogsa.MainMenu %>
+                <span class="right"></span>
+            </div>
+        </div>
+        <div id="content">
+            <div id="leftpanel">
+                <div class="padding10">
+                    <asp:ContentPlaceHolder runat="server" ID="CPHContent">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="sidepanel">
+                <Blogsa:BSWidgetHolder runat="server" ID="Default">
+                </Blogsa:BSWidgetHolder>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+        <div id="pagebottom">
+        </div>
+        <div id="footer">
+            <div class="content">
+                <span class="smallicon"></span>Blogsa
+                <%=Blogsa.Version %>
+                - Theme <a href="http://www.blogsa.net">Blogsa.net</a> - Free Open Source Blog Project
+            </div>
+        </div>
+    </div>
+    <div style="height: 10px; display: block">
+    </div>
+    </form>
+</body>
+</html>

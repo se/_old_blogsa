@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget>
+  <name>Contact</name>
+  <title>İletişim</title>
+  <type>Page</type>
+  <description>Blogsa.net standart iletişim formu eklentisidir.</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>Contact</folder>
+</widget>

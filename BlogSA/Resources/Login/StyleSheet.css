@@ -1,0 +1,140 @@
+﻿.login
+{
+    width: 350px;
+    height: 220px;
+    background: url("Inner.gif");
+    margin: 0 auto;
+    display: block;
+    position: relative;
+}
+
+.inputs
+{
+    display: block;
+    padding-top: 76px;
+    margin-left: 15px;
+}
+
+.txtbox
+{
+    display: block;
+    margin-bottom: 5px;
+    height: 37px;
+    width: 318px;
+    background: url("txtbox.gif") no-repeat;
+}
+
+.txtbox span
+{
+    margin-top: 8px;
+    margin-right: 5px;
+    font-weight: bold;
+    display: block;
+    width: 120px;
+    text-align: right;
+    color: White;
+    float: left;
+}
+
+.txtbox input
+{
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    border: 0;
+    margin-top: 6px;
+    margin-right: 10px;
+    display: block;
+    font-size: 14pt;
+    width: 170px;
+    padding: 0 4px;
+    float: right;
+    outline: none;
+}
+
+.button
+{
+    display: block;
+    width: 94px;
+    height: 29px;
+    background: url("button.gif") no-repeat;
+    float: right;
+    color: White;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-top: 5px;
+    font-weight:bold;
+}
+
+.button:hover
+{
+    background-position:right;
+}
+
+.button span
+{
+    display: block;
+    margin: 4px;
+    text-align: center;
+}
+
+.others
+{
+    display: block;
+    margin-left: 15px;
+}
+
+.others a
+{
+    color: #0097e3;
+    margin: 0 0 0 3px;
+    display: inline-block;
+}
+
+.error
+{
+    margin: 10px auto;
+    width:320px;
+    display: block;
+    font-weight: bold;
+    font-size: 12pt;
+    padding-left: 28px;
+    background: url("warning.gif") no-repeat;
+}
+
+.topbuttons
+{
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+.topbuttons a
+{
+    width: 31px;
+    height: 30px;
+    display: inline-block;
+    margin:3px;
+    background-repeat:no-repeat;
+}
+
+.home
+{
+    background-image: url("home.gif");
+    background-repeat:no-repeat;
+}
+
+.home:hover
+{
+    background-position:right;
+}
+
+.help
+{
+    background-image:url("help.gif");
+    background-repeat:no-repeat;
+}
+
+.help:hover
+{
+	background-position:right;
+}

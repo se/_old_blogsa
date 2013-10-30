@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<widget>
+  <name>Links</name>
+  <title>Bağlantılar</title>
+  <description>Blogsa.net standart Bağlantılar eklentisidir.</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>Links</folder>
+</widget>

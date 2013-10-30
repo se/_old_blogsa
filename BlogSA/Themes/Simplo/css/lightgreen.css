@@ -1,0 +1,32 @@
+body {
+	background:url(../images/lightgreen/bk_body.jpg);
+}
+
+
+a {
+	color:#99CC00;
+}
+
+#topMenu ul li a {
+	background:url(../images/lightgreen/bullet_list.png) 0 2px no-repeat;
+}
+
+#topMenu ul li a:hover{
+	color:#99CC00;
+}
+
+.postItem h1 a:hover{
+	color:#99CC00;
+}
+
+.postItem .categs a {
+	background:#99CC00;
+}
+
+.icoAuthor {
+	background:url(../images/lightgreen/ico_author.png) 0 2px no-repeat;
+}
+
+.icoComments {
+	background:url(../images/lightgreen/ico_comments.png) 0 2px no-repeat;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+  <name>Simplo</name>
+  <description>Blogsa.net tarafından Blogsa v.1.2 için uyarlamıştır.</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>Simplo</folder>
+  <settings>
+    <add title="Facebook Url" description="Type your Facebook url" key="FacebookUrl" defaultValue="http://www.facebook.com" type="Text" />
+    <add title="LinkedIn Url" description="Type your LinkedIn url" key="LinkedInUrl" defaultValue="http://www.linkedin.com" type="Text" />
+    <add title="Twitter Url" description="Type your Twitter url" key="TwitterUrl" defaultValue="http://www.twitter.com" type="Text" />
+    <add title="RSS Url" description="Type your RSS Url" key="RSSUrl" type="Text" />
+    <add title="Google Analytics" description="Type your Google Analytics Code" key="GoogleAnalytics" type="MultiLine" />
+    <add title="Google Meta Greetings" description="Type your Google meta greetings" key="Google_Greetings" type="Text" />
+    <add title="Google Meta Keywords" description="Type your Google meta keywords" key="Google_Keywords" type="Text" />
+    <add title="Google Meta Copyright" description="Type your Google meta copyright" key="Google_Copyright" type="Text" />
+    <add title="Google Meta Author" description="Type your Google meta author" key="Google_Author" type="Text" />
+  </settings>
+</theme>

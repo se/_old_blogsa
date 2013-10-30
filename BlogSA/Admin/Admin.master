@@ -1,0 +1,120 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Master" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>
+        <%=Blogsa.Settings["blog_name"]%>
+        -
+        <%=Language.Admin["AdminPanel"] %></title>
+    <link href="Css/table.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="Css/Default.css" />
+    <link href="Css/button.css" rel="stylesheet" type="text/css" />
+    <link href="Css/admin.css" rel="stylesheet" type="text/css" />
+    <link href="Css/icons.css" rel="stylesheet" type="text/css" />
+    <link href="Css/smoothness/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+    <link href="Css/bstable.css" rel="stylesheet" type="text/css" />
+    <link href="Css/bsbutton.css" rel="stylesheet" type="text/css" />
+    <script src="Js/BSClient.js" type="text/javascript"></script>
+    <script src="Js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script src="Js/jquery-ui-1.8.16.custom.min.js" type="text/javascript"></script>
+    <script src="Js/Jquery.AutoCompleate.js" type="text/javascript"></script>
+    <script src="Js/Page.js" type="text/javascript"></script>
+</head>
+<body>
+    <form id="frmMain" runat="server">
+    <div id="container">
+        <div id="header">
+            <div class="divtitle">
+                <div class="wrapper">
+                    <div class="title_content">
+                        <%=Blogsa.Settings["blog_name"]%>
+                        -
+                        <%=Language.Admin["AdminPanel"] %>&nbsp;<a href="../Default.aspx" class="sbtn bsdarkblue"><span>
+                            <%=Language.Admin["ShowWebsite"] %></span></a>
+                    </div>
+                    <a href="http://www.blogsa.net" target="_blank" class="blogsalogo"></a>
+                    <div class="logged-box">
+                        <%=Language.Admin["Wellcome"] %>, <strong><a style="color: Yellow" href="Users.aspx?UserID=<%=Blogsa.ActiveUser.UserID %>">
+                            <%=Blogsa.ActiveUser.Name %></a></strong> <a href="../Login.aspx?logout" class="closebutton">
+                                <%=Language.Admin["Exit"] %></a>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div id="topmenu">
+                    <ul>
+                        <li id="mnDefault"><a href="Default.aspx">
+                            <%=Language.Admin["Dashboard"] %></a></li>
+                        <li id="mnAdd"><a href="Add.aspx">
+                            <%=Language.Admin["Add"] %></a></li>
+                        <%if (Page.User.IsInRole("admin"))
+                          {%>
+                        <li id="mnManage"><a href="Posts.aspx">
+                            <%=Language.Admin["Posts"]%></a></li>
+                        <li id="mnPages"><a href="Pages.aspx">
+                            <%=Language.Admin["Pages"]%></a></li>
+                        <li id="mnLinks"><a href="Links.aspx">
+                            <%=Language.Admin["Links"]%></a></li>
+                        <li id="mnMenus"><a href="Menus.aspx">
+                            <%=Language.Admin["Menus"]%></a></li>
+                        <%}
+                          else
+                          { %>
+                        <li id="mnManage"><a href="Posts.aspx">
+                            <%=Language.Admin["Posts"]%></a></li>
+                        <%} %>
+                        <li id="mnUsers"><a href="Users.aspx">
+                            <%=Language.Admin["Users"] %></a></li>
+                        <%if (Page.User.IsInRole("admin"))
+                          {%>
+                        <li id="mnComments" style="position: relative;"><a href="Comments.aspx" style="<%=BSHelper.GetCommentCount(CommentStates.UnApproved)==0?"": "padding-right:30px"%>">
+                            <%=Language.Admin["Comments"]%></a>
+                            <div class="ballon" style="<%=BSHelper.GetCommentCount(CommentStates.UnApproved)==0?"display:none;": ""%>">
+                                <span>
+                                    <%=BSHelper.GetCommentCount(CommentStates.UnApproved)%></span>
+                            </div>
+                        </li>
+                        <li id="mnCategories"><a href="Categories.aspx">
+                            <%=Language.Admin["Categories"]%></a></li>
+                        <li id="mnView"><a href="Design.aspx">
+                            <%=Language.Admin["Design"]%></a></li>
+                        <li id="mnTags"><a href="Tags.aspx">
+                            <%=Language.Admin["Tags"]%></a></li>
+                        <li id="mnLibrary"><a href="Library.aspx">
+                            <%=Language.Admin["Library"]%></a></li>
+                        <li id="mnWidgets"><a href="Widgets.aspx">
+                            <%=Language.Admin["Widgets"]%></a></li>
+                        <!--<li id="mnImport"><a href="Import.aspx">
+                        <%=Language.Admin["Transfer"]%></a></li>-->
+                        <li id="mnSettings"><a href="Settings.aspx">
+                            <%=Language.Admin["Settings"]%></a></li>
+                        <%} %>
+                    </ul>
+                </div>
+                <asp:ContentPlaceHolder ID="toppanel" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="wrapper">
+            <asp:Literal ID="ltText" runat="server" />
+            <asp:ContentPlaceHolder ID="cph1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="clear">
+            </div>
+        </div>
+        <div id="footer">
+            <div id="credits">
+                <a href="http://www.blogsa.net" target="_blank"><span class="blogsa-small-logo-white"></span>
+                    <%=String.Format(Language.Admin["CreatedWith"],Blogsa.Version)%>
+                </a><a href="http://www.blogsa.net" target="_blank" class="blogsalogo"></a>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

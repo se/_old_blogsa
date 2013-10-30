@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<theme>
+  <name>Default</name>
+  <description>Blogsa.net tarafından Blogsa v.1.0 Beta 1 için yapılmıştır. Blogsa'nın yayınlandığı ilk temadır.</description>
+  <version>1.0.0</version>
+  <author>Blogsa.net</author>
+  <website>http://www.blogsa.net</website>
+  <updateurl>http://www.blogsa.net</updateurl>
+  <screenshot>screenshot.jpg</screenshot>
+  <folder>Default</folder>
+</theme>

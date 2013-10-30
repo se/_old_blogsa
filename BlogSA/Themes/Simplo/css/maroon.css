@@ -1,0 +1,31 @@
+body {
+	background:url(../images/maroon/bk_body.jpg);
+}
+
+a {
+	color:#CC9933;
+}
+
+#topMenu ul li a {
+	background:url(../images/maroon/bullet_list.png) 0 2px no-repeat;
+}
+
+#topMenu ul li a:hover{
+	color:#CC9933;
+}
+
+.postItem h1 a:hover{
+	color:#CC9933;
+}
+
+.postItem .categs a {
+	background:#CC9933;
+}
+
+.icoAuthor {
+	background:url(../images/maroon/ico_author.png) 0 2px no-repeat;
+}
+
+.icoComments {
+	background:url(../images/maroon/ico_comments.png) 0 2px no-repeat;
+}

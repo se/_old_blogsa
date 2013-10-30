@@ -1,0 +1,52 @@
+<%@ Master Language="C#" AutoEventWireup="true" Inherits="BSMasterPageBase" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="<%#Blogsa.ThemeUrl + "default.css" %>" />
+    <link rel="stylesheet" type="text/css" href="<%#Blogsa.ThemeUrl + "blogsa.css" %>" />
+    <asp:ContentPlaceHolder runat="server" ID="CPHHead">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="page">
+        <div id="header">
+            <div class="padding10">
+                <div class="title">
+                    <%=Blogsa.Settings["blog_name"]%>
+                </div>
+                <div class="slogan">
+                    <%=Blogsa.Settings["blog_description"]%>
+                </div>
+                <div style="clear: both">
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <div id="leftpanel">
+                <div class="padding10">
+                    <asp:ContentPlaceHolder runat="server" ID="CPHContent">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div id="sidepanel">
+                <Blogsa:BSWidgetHolder runat="server" ID="Default">
+                </Blogsa:BSWidgetHolder>
+            </div>
+            <div style="clear: both">
+            </div>
+        </div>
+        <div id="footer">
+            <div class="padding10">
+                Blogsa
+                <%=Blogsa.Version%>
+                - Theme <a href="http://www.blogsa.net">Blogsa.net</a>- Free Open Source Blog Project
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

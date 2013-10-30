@@ -1,0 +1,39 @@
+﻿.post-edit-box
+{
+    border: 1px solid #bbb;
+    display: none;
+    padding-left: 22px;
+    margin: 10px 0;
+    background: url("../Images/icons/posts.png") no-repeat 5px #f4f4f4;
+    font-size: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.post-edit-box a
+{
+    padding: 5px 10px;
+    display: inline-block;
+    color: #666;
+    text-decoration: none !important;
+    margin: 0 0 0 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 1px solid transparent;
+}
+
+.post-edit-box a:hover
+{
+    background: #676767;
+    color: #fff;
+    border: 1px solid #000;
+    border-top: 0;
+    border-bottom: 0;
+}
+
+.post-edit-box span
+{
+    padding: 5px;
+    display: inline-block;
+    color: #333;
+}

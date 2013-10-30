@@ -1,0 +1,26 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Setup.master.cs" Inherits="Setup_Setup" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title><%=Language.Setup["SetupPage"] %></title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="block">
+        <img src="Images/Logo.gif" alt="" />&nbsp;<span class="toptitle"><%=Language.Setup["SetupGuide"]%>
+            <span class="setuptitle" style="font-size:large">
+                <%=Language.Setup["SetupLanguage"] %>
+            <asp:DropDownList Style="vertical-align: middle;" ID="ddLanguage" Font-Size="Large" AutoPostBack="true"
+                runat="server" OnSelectedIndexChanged="ddLanguage_SelectedIndexChanged">
+            </asp:DropDownList>
+            </span>
+        </span>
+    </div>
+    <asp:ContentPlaceHolder ID="cphMain" runat="server"></asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>
