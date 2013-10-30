@@ -1,4 +1,4 @@
-blogsa
+BlogSA - Open-Source Blog Engine Project
 ======
 
 Open-Source Blog Engine Project
