@@ -16,7 +16,7 @@ public partial class SettingsTest : System.Web.UI.Page
         String strConnectionString = ConfigurationManager.AppSettings["ConnectionString"];
 
         lblSetup.Text = strSetup;
-        lblConnectionString.Text = strConnectionString;
+        lblConnectionString.Text = "[Hidden]";
         lblProvider.Text = strProvider;
 
         String strDetailMessage = "<div style='border:1px solid #B20012;background:#EAD1D3;display:block;padding:10px;margin:10px;'>{0}</div>";
@@ -78,7 +78,7 @@ public partial class SettingsTest : System.Web.UI.Page
             string strPassword = Blogsa.Settings["smtp_pass"].Value;
 
             lblSMTPUsername.Text = strUserName;
-            lblSMTPPassword.Text = strPassword;
+            lblSMTPPassword.Text = "[Hidden]";
 
             lblSMTPServerPort.Text = String.Format("{0} / {1}", strServer, iPort);
 
